@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+requirements.testing.txt
+setup.cfg
+setup.py
+parsedatetime.egg-info/PKG-INFO
+parsedatetime.egg-info/SOURCES.txt
+parsedatetime.egg-info/dependency_links.txt
+parsedatetime.egg-info/requires.txt
+parsedatetime.egg-info/top_level.txt
+usbdetector/__init__.py
+usbdetector/core.py
+usbdetector/usbdetector.py
