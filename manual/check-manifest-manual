@@ -1,0 +1,23 @@
+[0] pip install check-manifest
+
+[1] Manual https://pypi.python.org/pypi/check-manifest
+
+First: Create MANIFEST.in
+    Example of manifest:
+    -------------------------------------
+        include *.rst
+        include *.txt
+        include Makefile
+        recursive-include examples *.py
+        recursive-include examples *.txt
+        recursive-include tests *.py
+        prune .DS_Store
+    -------------------------------------
+[check-manifest]
+    ignore =
+        .travis.yml
+    -------------------------------------
+
+
+
+check-manifest -u -v

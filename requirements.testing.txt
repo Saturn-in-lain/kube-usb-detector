@@ -1,0 +1,16 @@
+check-manifest
+flake8
+pep8
+coverage
+coveralls
+
+future
+pytest
+pytest-cov
+pytest-runner
+
+mccabe
+codecov
+unittest2
+tox
+tox-pyenv
