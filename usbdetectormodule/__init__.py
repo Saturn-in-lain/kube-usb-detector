@@ -16,7 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
+from usbdetectormodule import *
 from usbdetectormodule.core import ListCommandGenerator
 """
 Module: usbdetectormodule
@@ -40,11 +40,12 @@ __download_url__ = 'git+https://github.com/Saturn-in-lain/kube-usb-detector'
 # -------------------------------------------------------------------------------------------------------------------
 
 
-def _retrieve_commands():
-    basic = ListCommandGenerator()      # [1] Init class
-    basic.set_module('module')          # [2] Set module name to parse
-    json = basic.create_json()          # [3] Create JSON format for data
-    return json
+def retrieve_commands(additional_module_name=None):
+    if additional_module_name is not None:
+        basic = ListCommandGenerator()                          # [1] Init class
+        basic.set_module(additional_module_name)                # [2] Set module name to parse
+        json = basic.create_json()                              # [3] Create JSON format for data
+        return json
 
 
 def call_method(class_name='default', method_name='default'):
