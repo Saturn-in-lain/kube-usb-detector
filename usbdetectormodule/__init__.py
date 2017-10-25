@@ -55,7 +55,7 @@ def retrieve_commands(additional_module_name=None):
 
 def retrieve_json_description():
     basic = ListCommandGenerator()                          # [1] Init class
-    basic.set_all_modules()                    # [2] Set module name to parse
+    basic.set_all_modules()                                 # [2] Set module name to parse
     json = basic.create_json()                              # [3] Create JSON format for data
     return json
 
