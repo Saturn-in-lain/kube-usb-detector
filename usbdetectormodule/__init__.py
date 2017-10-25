@@ -16,13 +16,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
+from usbdetectormodule import *
+
 """
 Module: usbdetectormodule
 Description:
 Requires: Python 2.6 or later
 """
-from core import ListCommandGenerator
-
 __author__ = 'Stas Savinov'
 __email__ = 'stanislav.savinov@dish.com'
 __copyright__ = 'Copyright (c) 2017 Stas Savinovr'
