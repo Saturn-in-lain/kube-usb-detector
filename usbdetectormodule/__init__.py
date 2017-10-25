@@ -53,6 +53,12 @@ def retrieve_commands(additional_module_name=None):
             print("[!] No module named " + additional_module_name)
     return json
 
+def retrieve_json_description():
+    basic = ListCommandGenerator()                          # [1] Init class
+    basic.set_all_modules()                    # [2] Set module name to parse
+    json = basic.create_json()                              # [3] Create JSON format for data
+    return json
+
 def call_method(class_name='default', method_name='default'):
     '''
     Description: call_method
@@ -63,6 +69,7 @@ def call_method(class_name='default', method_name='default'):
     print("We called " + class_name + " and method: " + method_name)
     pass
 
-if __name__ == "__main__":
-    retrieve_commands('module')
-    pass
+# if __name__ == "__main__":
+#     # retrieve_commands('module')
+#     retrieve_json_description()
+#     pass

@@ -80,6 +80,13 @@ class ListCommandGenerator(object):
         self._parse()
 
 
+    def set_all_modules(self):
+        self.module = __import__('module')
+        self.module_name = str('module')
+        temp = inspect.getmembers(sys.modules[self.module_name], inspect.isclass)
+        self._get_list_of_classes(temp)
+        self._parse()
+
     def _get_list_of_classes(self, list_of_tuples):
         """
         Description:
