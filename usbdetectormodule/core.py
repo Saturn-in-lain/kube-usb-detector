@@ -183,12 +183,8 @@ class ListCommandGenerator(object):
 
         data[CLASS_LIST] = class_list
         self.json_response = json.dumps(data)
-
-        print(str(self.json_response))
-
+        # print(str(self.json_response))
         return self.json_response
-
-
 
 
 # if __name__ == '__main__':
