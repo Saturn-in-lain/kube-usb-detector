@@ -18,7 +18,7 @@
 
 from usbdetectormodule import *
 from usbdetectormodule.core import ListCommandGenerator
-import module
+import usbdetectormodule.module
 
 """
 Module: usbdetectormodule
@@ -50,7 +50,7 @@ def retrieve_commands(additional_module_name=None):
             basic.set_module(additional_module_name)                # [2] Set module name to parse
             json = basic.create_json()                              # [3] Create JSON format for data
         except:
-            print("No module named " + additional_module_name)
+            print("[!] No module named " + additional_module_name)
     return json
 
 def call_method(class_name='default', method_name='default'):
@@ -63,6 +63,6 @@ def call_method(class_name='default', method_name='default'):
     print("We called " + class_name + " and method: " + method_name)
     pass
 
-# if __name__ == "__main__":
-#     _retrieve_commands()
-#     pass
+if __name__ == "__main__":
+    retrieve_commands('module')
+    pass
