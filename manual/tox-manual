@@ -1,0 +1,21 @@
+[0] Documentation: https://tox.readthedocs.io/en/latest/
+
+[1] Description: tox aims to automate and standardize testing in Python.
+It is part of a larger vision of easing the packaging, testing and release process of Python software.
+ - checking your package installs correctly with different Python versions and interpreters
+ - running your tests in each of the environments, configuring your test tool of choice
+ - acting as a frontend to Continuous Integration servers, greatly reducing boilerplate and merging CI and shell-based testing.
+
+First, install tox with pip install tox. Then put basic information about your project and the test environments you
+want your project to run in into a tox.ini file residing right next to your setup.py file:
+
+# content of: tox.ini , put in same dir as setup.py
+[tox]
+envlist = py26,py27
+[testenv]
+deps=pytest       # install pytest in the venvs
+commands=pytest  # or 'nosetests' or ...
+
+Automation file generation: tox-quickstart
+
+[START] Input in terminal: tox

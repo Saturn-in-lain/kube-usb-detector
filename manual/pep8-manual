@@ -1,0 +1,11 @@
+[0][https://pypi.python.org/pypi/pep8]
+
+[Usage] In terminal: pep8 usbdetector\core.py
+
+Example:
+ output: usbdetector\core.py:9:1: W391 blank line at end of file
+
+In setup.cfg add:
+
+    [pep8]
+        ignore = E111,E124,E126,E128,E201,E202,E221,E226,E241,E301,E302,E303,E402,E501,W291,F405

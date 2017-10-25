@@ -1,0 +1,8 @@
+actionid: py34
+msg: getenv
+cmdargs: ['c:\\python34\\python.exe', '-m', 'virtualenv', '--python', 'c:\\python34\\python.exe', 'py34']
+
+Already using interpreter c:\python34\python.exe
+Using base prefix 'c:\\python34'
+New python executable in C:\Workspase\IoT\FirstModule\USBDetector\.tox\py34\Scripts\python.exe
+Installing setuptools, pip, wheel...done.

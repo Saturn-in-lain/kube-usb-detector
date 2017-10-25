@@ -1,0 +1,14 @@
+# import usb.core
+# import usb.util
+# find our device
+        # dev = usb.core.find()
+        # dev = usb.core.find(idVendor=0xfffe, idProduct=0x0001)
+
+        # ERROR IN WINDOWS: https://stackoverflow.com/questions/13773132/pyusb-on-windows-no-backend-available
+        # No installation rights for now
+
+        # was it found?
+        # if dev is None:
+        #     raise ValueError('Device not found')
+        # else:
+        #     print("Dev: " + dev)

@@ -1,0 +1,7 @@
+[0] https://pypi.python.org/pypi/pytest
+
+[1] pip install pytest pytest-cov pytest-runner
+
+[2] simple powerful testing with Python
+
+[3] Run in terminal: pytest

@@ -13,7 +13,7 @@ def read(filename):
     with codecs.open(os.path.join(cwd, filename), 'rb', 'utf-8') as h:
         return h.read()
 
-metadata = read(os.path.join(cwd, 'usbdetector', '__init__.py'))
+metadata = read(os.path.join(cwd, 'usbdetectormodule', '__init__.py'))
 
 def extract_metaitem(meta):
     # swiped from https://hynek.me 's attr package
@@ -24,7 +24,7 @@ def extract_metaitem(meta):
     raise RuntimeError('Unable to find __{meta}__ string.'.format(meta=meta))
 
 setup(
-    name='parsedatetime',
+    name='usbdetectormodule',
     version=extract_metaitem('version'),
     author=extract_metaitem('author'),
     author_email=extract_metaitem('email'),
@@ -35,7 +35,7 @@ setup(
     packages=find_packages(exclude=['tests', 'docs']),
     platforms=['Any'],
     long_description=read('README.rst'),
-    install_requires=['future'],
+    install_requires=['future', 'unittest2','setuptools'],
     tests_require=['pytest'],
     test_suite='tests',
     classifiers=[

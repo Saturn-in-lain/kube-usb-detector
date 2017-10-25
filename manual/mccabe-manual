@@ -1,0 +1,16 @@
+[0] https://pypi.python.org/pypi/mccabe
+
+[1] Install: pip install mccabe
+
+[2] This module provides a plugin for flake8, the Python code checker.
+
+Example:
+    python -m mccabe --min 5 example.py
+Result:
+    ("185:1: 'PathGraphingAstVisitor.visitIf'", 5)
+    ("71:1: 'PathGraph.to_dot'", 5)
+    ("245:1: 'McCabeChecker.run'", 5)
+    ("283:1: 'main'", 7)
+    ("203:1: 'PathGraphingAstVisitor.visitTryExcept'", 5)
+    ("257:1: 'get_code_complexity'", 5)
+

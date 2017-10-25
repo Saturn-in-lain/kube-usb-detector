@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/USBDetector.iml" filepath="$PROJECT_DIR$/.idea/USBDetector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/USBDetectorModule.iml" filepath="$PROJECT_DIR$/.idea/USBDetectorModule.iml" />
     </modules>
   </component>
 </project>

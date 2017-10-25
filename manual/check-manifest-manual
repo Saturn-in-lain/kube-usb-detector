@@ -18,6 +18,7 @@ First: Create MANIFEST.in
         .travis.yml
     -------------------------------------
 
+Run in terminal: check-manifest -u -v
+or: check-manifest -v
 
-
-check-manifest -u -v
+Note: setup.cfg and setup.py will be working together with this run

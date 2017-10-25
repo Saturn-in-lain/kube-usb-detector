@@ -1,0 +1,2 @@
+pip install -r install
+pip install -r requirements.testing.txt

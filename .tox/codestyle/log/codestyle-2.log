@@ -1,0 +1,15 @@
+actionid: codestyle
+msg: installpkg
+cmdargs: ['C:\\Workspase\\IoT\\FirstModule\\USBDetector\\.tox\\codestyle\\Scripts\\pip.EXE', 'install', 'C:\\Workspase\\IoT\\FirstModule\\USBDetector\\.tox\\dist\\usbdetector-0.1.zip']
+
+Processing c:\workspase\iot\firstmodule\usbdetector\.tox\dist\usbdetector-0.1.zip
+Collecting future (from usbdetector==0.1)
+Building wheels for collected packages: usbdetector
+  Running setup.py bdist_wheel for usbdetector: started
+  Running setup.py bdist_wheel for usbdetector: finished with status 'done'
+  Stored in directory: C:\Users\stas.savinov\AppData\Local\pip\Cache\wheels\a1\d6\c5\9a61343d17c9f848382589904f727d7941c7755bc14e62609a
+Successfully built usbdetector
+Installing collected packages: future, usbdetector
+Successfully installed future-0.16.0 usbdetector-0.1
+c:\workspase\iot\firstmodule\usbdetector\.tox\codestyle\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)

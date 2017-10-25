@@ -1,0 +1,57 @@
+actionid: tox
+msg: packaging
+cmdargs: ['c:\\python34\\python.exe', local('C:\\Workspase\\IoT\\FirstModule\\USBDetector\\setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('C:\\Workspase\\IoT\\FirstModule\\USBDetector\\.tox\\dist')]
+
+running sdist
+running egg_info
+writing dependency_links to usbdetector.egg-info\dependency_links.txt
+writing usbdetector.egg-info\PKG-INFO
+writing top-level names to usbdetector.egg-info\top_level.txt
+writing requirements to usbdetector.egg-info\requires.txt
+reading manifest file 'usbdetector.egg-info\SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'Makefile'
+warning: no files found matching '*.py' under directory 'examples'
+warning: no files found matching '*.txt' under directory 'examples'
+warning: no files found matching '*.py' under directory 'tests'
+no previously-included directories found matching '.DS_Store'
+writing manifest file 'usbdetector.egg-info\SOURCES.txt'
+running check
+creating usbdetector-0.1
+creating usbdetector-0.1\usbdetector
+creating usbdetector-0.1\usbdetector.egg-info
+making hard links in usbdetector-0.1...
+hard linking MANIFEST.in -> usbdetector-0.1
+hard linking README.rst -> usbdetector-0.1
+hard linking install -> usbdetector-0.1
+hard linking requirements.testing.txt -> usbdetector-0.1
+hard linking setup.cfg -> usbdetector-0.1
+hard linking setup.py -> usbdetector-0.1
+hard linking usbdetector\__init__.py -> usbdetector-0.1\usbdetector
+hard linking usbdetector\core.py -> usbdetector-0.1\usbdetector
+hard linking usbdetector\usbdetector.py -> usbdetector-0.1\usbdetector
+hard linking usbdetector.egg-info\PKG-INFO -> usbdetector-0.1\usbdetector.egg-info
+hard linking usbdetector.egg-info\SOURCES.txt -> usbdetector-0.1\usbdetector.egg-info
+hard linking usbdetector.egg-info\dependency_links.txt -> usbdetector-0.1\usbdetector.egg-info
+hard linking usbdetector.egg-info\requires.txt -> usbdetector-0.1\usbdetector.egg-info
+hard linking usbdetector.egg-info\top_level.txt -> usbdetector-0.1\usbdetector.egg-info
+copying setup.cfg -> usbdetector-0.1
+Writing usbdetector-0.1\setup.cfg
+creating C:\Workspase\IoT\FirstModule\USBDetector\.tox\dist
+creating 'C:\Workspase\IoT\FirstModule\USBDetector\.tox\dist\usbdetector-0.1.zip' and adding 'usbdetector-0.1' to it
+adding 'usbdetector-0.1\install'
+adding 'usbdetector-0.1\MANIFEST.in'
+adding 'usbdetector-0.1\PKG-INFO'
+adding 'usbdetector-0.1\README.rst'
+adding 'usbdetector-0.1\requirements.testing.txt'
+adding 'usbdetector-0.1\setup.cfg'
+adding 'usbdetector-0.1\setup.py'
+adding 'usbdetector-0.1\usbdetector\core.py'
+adding 'usbdetector-0.1\usbdetector\usbdetector.py'
+adding 'usbdetector-0.1\usbdetector\__init__.py'
+adding 'usbdetector-0.1\usbdetector.egg-info\dependency_links.txt'
+adding 'usbdetector-0.1\usbdetector.egg-info\PKG-INFO'
+adding 'usbdetector-0.1\usbdetector.egg-info\requires.txt'
+adding 'usbdetector-0.1\usbdetector.egg-info\SOURCES.txt'
+adding 'usbdetector-0.1\usbdetector.egg-info\top_level.txt'
+removing 'usbdetector-0.1' (and everything under it)

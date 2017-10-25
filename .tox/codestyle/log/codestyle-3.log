@@ -1,0 +1,7 @@
+actionid: codestyle
+msg: envreport
+cmdargs: ['C:\\Workspase\\IoT\\FirstModule\\USBDetector\\.tox\\codestyle\\Scripts\\pip.EXE', 'freeze']
+
+future==0.16.0
+pycodestyle==2.3.1
+usbdetector==0.1

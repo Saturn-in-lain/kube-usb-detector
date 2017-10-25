@@ -1,0 +1,119 @@
+actionid: py34
+msg: getenv
+cmdargs: ['C:\\Workspase\\IoT\\FirstModule\\USBDetector\\.tox\\py34\\Scripts\\pip.EXE', 'install', '-UrC:\\Workspase\\IoT\\FirstModule\\USBDetector/install', '-UrC:\\Workspase\\IoT\\FirstModule\\USBDetector/requirements.testing.txt']
+
+Collecting pyusb (from -r C:\Workspase\IoT\FirstModule\USBDetector/install (line 1))
+  Using cached pyusb-1.0.2.tar.gz
+Requirement already up-to-date: setuptools in c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages (from -r C:\Workspase\IoT\FirstModule\USBDetector/install (line 2))
+Collecting check-manifest (from -r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 1))
+  Using cached check_manifest-0.35-py2.py3-none-any.whl
+Collecting flake8 (from -r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 2))
+  Using cached flake8-3.4.1-py2.py3-none-any.whl
+Collecting future (from -r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 3))
+  Using cached future-0.16.0.tar.gz
+Collecting tox (from -r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 5))
+  Using cached tox-2.9.1-py2.py3-none-any.whl
+Collecting tox-pyenv (from -r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 6))
+  Using cached tox_pyenv-1.1.0-py2.py3-none-any.whl
+Collecting pep8 (from -r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 9))
+  Using cached pep8-1.7.0-py2.py3-none-any.whl
+Collecting coverage (from -r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 10))
+  Using cached coverage-4.4.1-cp34-cp34m-win_amd64.whl
+Collecting coveralls (from -r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 11))
+  Using cached coveralls-1.2.0-py2.py3-none-any.whl
+Collecting pytest (from -r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 13))
+  Using cached pytest-3.2.3-py2.py3-none-any.whl
+Collecting pytest-cov (from -r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 14))
+  Downloading pytest_cov-2.5.1-py2.py3-none-any.whl
+Collecting pytest-runner (from -r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 15))
+  Downloading pytest_runner-2.12.1-py2.py3-none-any.whl
+Collecting mccabe (from -r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 17))
+  Using cached mccabe-0.6.1-py2.py3-none-any.whl
+Collecting codecov (from -r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 18))
+  Downloading codecov-2.0.9-py2.py3-none-any.whl
+Collecting unittest2 (from -r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 19))
+  Downloading unittest2-1.1.0-py2.py3-none-any.whl (96kB)
+Collecting pycodestyle<2.4.0,>=2.0.0 (from flake8->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 2))
+  Using cached pycodestyle-2.3.1-py2.py3-none-any.whl
+Collecting pyflakes<1.6.0,>=1.5.0 (from flake8->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 2))
+  Using cached pyflakes-1.5.0-py2.py3-none-any.whl
+Collecting virtualenv>=1.11.2; python_version != "3.2" (from tox->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 5))
+  Using cached virtualenv-15.1.0-py2.py3-none-any.whl
+Collecting six (from tox->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 5))
+  Using cached six-1.11.0-py2.py3-none-any.whl
+Collecting py>=1.4.17 (from tox->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 5))
+  Using cached py-1.4.34-py2.py3-none-any.whl
+Collecting pluggy<1.0,>=0.3.0 (from tox->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 5))
+  Using cached pluggy-0.5.2.tar.gz
+Collecting docopt>=0.6.1 (from coveralls->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 11))
+  Using cached docopt-0.6.2.tar.gz
+Collecting requests>=1.0.0 (from coveralls->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 11))
+  Using cached requests-2.18.4-py2.py3-none-any.whl
+Collecting colorama; sys_platform == "win32" (from pytest->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 13))
+  Using cached colorama-0.3.9-py2.py3-none-any.whl
+Collecting traceback2 (from unittest2->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 19))
+  Downloading traceback2-1.4.0-py2.py3-none-any.whl
+Collecting argparse (from unittest2->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 19))
+  Downloading argparse-1.4.0-py2.py3-none-any.whl
+Collecting certifi>=2017.4.17 (from requests>=1.0.0->coveralls->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 11))
+  Using cached certifi-2017.7.27.1-py2.py3-none-any.whl
+Collecting chardet<3.1.0,>=3.0.2 (from requests>=1.0.0->coveralls->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 11))
+  Using cached chardet-3.0.4-py2.py3-none-any.whl
+Collecting idna<2.7,>=2.5 (from requests>=1.0.0->coveralls->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 11))
+  Using cached idna-2.6-py2.py3-none-any.whl
+Collecting urllib3<1.23,>=1.21.1 (from requests>=1.0.0->coveralls->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 11))
+  Using cached urllib3-1.22-py2.py3-none-any.whl
+Collecting linecache2 (from traceback2->unittest2->-r C:\Workspase\IoT\FirstModule\USBDetector/requirements.testing.txt (line 19))
+  Downloading linecache2-1.0.0-py2.py3-none-any.whl
+Building wheels for collected packages: pyusb, future, pluggy, docopt
+  Running setup.py bdist_wheel for pyusb: started
+  Running setup.py bdist_wheel for pyusb: finished with status 'done'
+  Stored in directory: C:\Users\stas.savinov\AppData\Local\pip\Cache\wheels\8b\7f\fe\baf08bc0dac02ba17f3c9120f5dd1cf74aec4c54463bc85cf9
+  Running setup.py bdist_wheel for future: started
+  Running setup.py bdist_wheel for future: finished with status 'done'
+  Stored in directory: C:\Users\stas.savinov\AppData\Local\pip\Cache\wheels\c2\50\7c\0d83b4baac4f63ff7a765bd16390d2ab43c93587fac9d6017a
+  Running setup.py bdist_wheel for pluggy: started
+  Running setup.py bdist_wheel for pluggy: finished with status 'done'
+  Stored in directory: C:\Users\stas.savinov\AppData\Local\pip\Cache\wheels\22\b2\db\618ae8dcba2994fb9ebce70ec1c1ab4923df89a77edac7e901
+  Running setup.py bdist_wheel for docopt: started
+  Running setup.py bdist_wheel for docopt: finished with status 'done'
+  Stored in directory: C:\Users\stas.savinov\AppData\Local\pip\Cache\wheels\b2\16\5f\c33a2bb5f2dce71205f8e65cbfd05647d79d441282be31fd82
+Successfully built pyusb future pluggy docopt
+Installing collected packages: pyusb, check-manifest, pycodestyle, mccabe, pyflakes, flake8, future, virtualenv, six, py, pluggy, tox, tox-pyenv, pep8, coverage, docopt, certifi, chardet, idna, urllib3, requests, coveralls, colorama, pytest, pytest-cov, pytest-runner, codecov, linecache2, traceback2, argparse, unittest2
+Successfully installed argparse-1.4.0 certifi-2017.7.27.1 chardet-3.0.4 check-manifest-0.35 codecov-2.0.9 colorama-0.3.9 coverage-4.4.1 coveralls-1.2.0 docopt-0.6.2 flake8-3.4.1 future-0.16.0 idna-2.6 linecache2-1.0.0 mccabe-0.6.1 pep8-1.7.0 pluggy-0.5.2 py-1.4.34 pycodestyle-2.3.1 pyflakes-1.5.0 pytest-3.2.3 pytest-cov-2.5.1 pytest-runner-2.12.1 pyusb-1.0.2 requests-2.18.4 six-1.11.0 tox-2.9.1 tox-pyenv-1.1.0 traceback2-1.4.0 unittest2-1.1.0 urllib3-1.22 virtualenv-15.1.0
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)
+c:\workspase\iot\firstmodule\usbdetector\.tox\py34\lib\site-packages\pip\wheel.py:229: DeprecationWarning: This method will be removed in future versions.  Use 'parser.read_file()' instead.
+  cp.readfp(data)

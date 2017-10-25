@@ -14,7 +14,7 @@ __version__ = '1.0.0'
 __contributors__ = ['Stas Savinov','Others']
 
 
-log = logging.getLogger('usbdetector')
+log = logging.getLogger('usbdetectormodule')
 echoHandler = logging.StreamHandler()
 echoFormatter = logging.Formatter('%(levelname)-8s %(message)s')
 log.addHandler(echoHandler)

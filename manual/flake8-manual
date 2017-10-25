@@ -1,0 +1,12 @@
+[0] Documents: https://pypi.python.org/pypi/flake8
+
+Details: https://habrahabr.ru/company/dataart/blog/318776/
+
+Description: The modular source code checker: pep8, pyflakes and co
+
+[1] Rut tool: flake8 my_project_name
+
+[2] Using comment # noqa youcan remove check here
+Example:
+    import sys # noqa
+

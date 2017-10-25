@@ -1,0 +1,8 @@
+actionid: codestyle
+msg: getenv
+cmdargs: ['c:\\python34\\python.exe', '-m', 'virtualenv', '--python', 'c:\\python34\\python.exe', 'codestyle']
+
+Already using interpreter c:\python34\python.exe
+Using base prefix 'c:\\python34'
+New python executable in C:\Workspase\IoT\FirstModule\USBDetector\.tox\codestyle\Scripts\python.exe
+Installing setuptools, pip, wheel...done.
