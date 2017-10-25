@@ -23,8 +23,6 @@ Requires: Python 2.6 or later
 """
 from core import ListCommandGenerator
 
-import module
-
 __author__ = 'Stas Savinov'
 __email__ = 'stanislav.savinov@dish.com'
 __copyright__ = 'Copyright (c) 2017 Stas Savinovr'
@@ -46,8 +44,19 @@ def _retrieve_commands():
     basic = ListCommandGenerator()      # [1] Init class
     basic.set_module('module')          # [2] Set module name to parse
     json = basic.create_json()          # [3] Create JSON format for data
+    return json
+
+
+def call_method(class_name='default', method_name='default'):
+    '''
+    Description: call_method
+    :param class_name:
+    :param method_name:
+    :return:
+    '''
+    print("We called " + class_name + " and method: " + method_name)
     pass
 
-if __name__ == "__main__":
-    _retrieve_commands()
-    pass
+# if __name__ == "__main__":
+#     _retrieve_commands()
+#     pass
