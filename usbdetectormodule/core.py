@@ -81,8 +81,7 @@ class ListCommandGenerator(object):
 
 
     def set_all_modules(self):
-        import usbdetectormodule.module
-        self.module = __import__('module')
+        self.module = __import__('usbdetectormodule.module')
         self.module_name = str('module')
         temp = inspect.getmembers(sys.modules[self.module_name], inspect.isclass)
         self._get_list_of_classes(temp)
