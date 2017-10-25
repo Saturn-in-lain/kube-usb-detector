@@ -18,6 +18,8 @@
 
 from usbdetectormodule import *
 from usbdetectormodule.core import ListCommandGenerator
+import module
+
 """
 Module: usbdetectormodule
 Description:
@@ -41,12 +43,15 @@ __download_url__ = 'git+https://github.com/Saturn-in-lain/kube-usb-detector'
 
 
 def retrieve_commands(additional_module_name=None):
+    json = None
     if additional_module_name is not None:
-        basic = ListCommandGenerator()                          # [1] Init class
-        basic.set_module(additional_module_name)                # [2] Set module name to parse
-        json = basic.create_json()                              # [3] Create JSON format for data
-        return json
-
+        try:
+            basic = ListCommandGenerator()                          # [1] Init class
+            basic.set_module(additional_module_name)                # [2] Set module name to parse
+            json = basic.create_json()                              # [3] Create JSON format for data
+        except:
+            print("No module named " + additional_module_name)
+    return json
 
 def call_method(class_name='default', method_name='default'):
     '''
