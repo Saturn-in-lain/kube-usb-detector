@@ -17,8 +17,7 @@
 # limitations under the License.
 
 
-from usbdetectormodule import *
-
+from usbdetectormodule.core import ListCommandGenerator
 """
 Module: usbdetectormodule
 Description:
