@@ -177,8 +177,8 @@ class ListCommandGenerator(object):
                 methods[METHOD_NAME] = method_item.method_name
                 methods[PARAMETERS] = str(method_item.method_parameters)
                 methods[DESCRIPTION] = str(method_item.method_description)
+                class_description[METHODS] = methods
 
-            class_description[METHODS] = methods
             class_list.append(class_description)
 
         data[CLASS_LIST] = class_list
@@ -194,4 +194,4 @@ class ListCommandGenerator(object):
     # basic.set_module('module')
     # # [3] Create JSON format for data
     # basic.create_json()
-
+    # pass

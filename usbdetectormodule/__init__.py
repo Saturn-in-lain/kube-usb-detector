@@ -55,23 +55,42 @@ def retrieve_commands(additional_module_name=None):
 
 
 def retrieve_json_description():
+    '''
+    Description: Retrieve JSON module description
+    :return:
+    '''
     basic = ListCommandGenerator()                          # [1] Init class
     basic.set_all_modules()                                 # [2] Set module names
     json = basic.create_json()                              # [3] Create JSON format for data
     return json
 
 
-def call_method(class_name='default', method_name='default'):
+def call_method(class_name=None, method_name=None, **kwargs):
     '''
     Description: call_method
     :param class_name:
     :param method_name:
     :return:
     '''
-    print("We called " + class_name + " and method: " + method_name)
-    pass
+    print("We calling Class:["+class_name+"] and method: " + method_name)
+
+    if class_name is not None and method_name is not None:
+        temp_class = ListCommandGenerator()._str_to_class('usbdetectormodule.module', class_name)
+        inited_class = temp_class()
+
+        intended_method = getattr(inited_class, method_name)
+        retValue = intended_method(kwargs)
+        return retValue
+
+    # if kwargs.__len__() > 0:
+    #     for key, value in kwargs.items():
+    #         print("Params: " + key + " -> Velue: " + value)
+    # else:
+    #        retValue = intended_method()
+
 
 # if __name__ == "__main__":
 #     # retrieve_commands('module')
-#     retrieve_json_description()
+#     # retrieve_json_description()
+#     call_method(class_name='NewModule', method_name='method_two', name="Stas")
 #     pass
